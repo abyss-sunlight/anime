@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>灵星二次元网站</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="./img/lago.ico" type="images/x-ico" />
+	<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.1/jquery.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+    <script type="text/javascript" src="./js/refresh.js" charset="gb2312"></script>
+    <link rel="stylesheet" type="text/css" href="./sangshousshuo-css/home-page.css">
+<script type="text/javascript" src="./js/logincode.js" charset="gb2312"></script>
+<script type="text/javascript" src="./js/ss.js" charset="gb2312"></script>
+  </head >
+  <body onload="body()">
+
+  <!-- 全局设置 -->
+  <div class="all">
+  
+  <!-- 上方背景 -->
+  <div class="blackground">
+  <!-- 上方导航栏 -->
+  <div class="naviqation-bar">
+  
+    <ul class="naviqation-bar1-1">
+    
+    <!-- 导航栏左 -->
+    <li >
+    <a href="Two-dimensional.html" id="twod">
+    <img src="./img/zy.png">
+   
+    <span>主页</span>
+    </a>
+    </li>
+    
+	<li><a href="#" id="r1" onclick="r1()">鬼刀公主</a>
+				</li>
+				<li><a href="#" id="r2" onclick="r2()">爱莉希雅</a>
+				</li>
+				<li><a href="#" id="r3" onclick="r3()">可莉</a>
+				</li>
+				<li><a href="#" id="r4" onclick="r4()">樱岛麻衣</a>
+				</li>
+				<li><a href="#" id="r5" onclick="r5()">蕾姆</a>
+				</li>
+    </ul>
+    
+     <!-- 导航栏中 -->
+     <div class="naviqation-bar1-2">
+     <input type="text" placeholder="&nbsp;&nbsp;请输入作品名" placeholder-class="srk" class="zy-grabble" name="zy-grabble" id="ss"  />
+     <img src="./img/grabble.png"class="grabble-img" onclick="ss()">
+     
+     </div>
+     
+     <!-- 导航栏右 -->
+     <ul class="naviqation-bar1-3">
+     <!--  -->
+      <!--  -->
+    <li id="li1">
+    <a href="./register.html" id="a1">
+     <span id="li1s">登录</span>
+    <img src="#" hidden="hidden" class="naviqation-bar-image" id="li1m">
+    </a>
+    
+    </li>
+     <!--  -->
+      <!--  -->
+    <li class="li2">
+    <a href="./login.html" id="a2">
+    注册
+    
+    </a>
+    </li>
+     <!--  --> 
+     <!--  -->
+    <li >
+    <a href="#"  id="li3" title="我的喜欢" hidden="hidden">
+   <!-- <img src="./img/scj.png"   class="img2" id="li3m">-->
+    </a>
+    </li>
+     
+     
+   <li >
+    <a href="#"  id="li4" title="历史记录" hidden="hidden">
+    <!--  <img src="./img/jl.png"  class="img1" id="li4m">-->
+    </a>
+    </li> 
+     <!--  -->
+      <!--  -->
+    </ul>
+    </div>
+    </div>
+    <!-- 下方内容 -->
+    <div class="zynr-all" id="zynrall">
+     
+    <!-- 分类栏 -->
+    <div class="classify">
+    <h id="mobile" hidden="hidden"></h>
+    <button class="classify-s" onclick="leix(this)">全部</button>
+    <button class="classify-s" onclick="leix(this)">搞笑</button>
+    <button class="classify-s" onclick="leix(this)">冒险</button>
+    <button class="classify-s" onclick="leix(this)">偶像</button>
+    <button class="classify-s" onclick="leix(this)">乙女</button>
+    <button class="classify-s" onclick="leix(this)">职场</button>
+    <button class="classify-s" onclick="leix(this)">美食</button>
+    <button class="classify-s" onclick="leix(this)">推理</button>
+    <button class="classify-s" onclick="leix(this)">恋爱</button>
+    <button class="classify-s" onclick="leix(this)">治愈</button>
+    <button class="classify-s" onclick="leix(this)">萌系</button>
+    <button class="classify-s" onclick="leix(this)">穿越</button>
+    <button class="classify-s" onclick="leix(this)">热血</button>
+    <button class="classify-s" onclick="leix(this)">科幻</button>
+    <button class="classify-s" onclick="leix(this)">奇幻</button>
+    <button class="classify-s" onclick="leix(this)">高校</button>
+    <button class="classify-s" onclick="leix(this)">战斗</button>
+    <button class="classify-s" onclick="leix(this)">音乐</button>
+    <button class="classify-s" onclick="leix(this)">励志</button>
+    <button class="classify-s" onclick="leix(this)">机战</button>
+    <button class="classify-s" onclick="leix(this)">魔神</button>
+    <button class="classify-s" onclick="leix(this)">历史</button>
+    <button class="classify-s" onclick="leix(this)">少女</button>
+    <button class="classify-s" onclick="leix(this)">泡面</button>
+    <button class="classify-s" onclick="leix(this)">校园</button>
+    <button class="classify-s" onclick="leix(this)">日常</button>
+    </div>
+    <div><!-- 下方主要内容 -->
+    <iframe src="./content.html" class="content" id="content" scrolling="no"></iframe>
+    </div>
+    </div>
+    <!-- 背景动画 -->
+    <video src="./mp4/register-2.mp4" id="rvideo" class="bjimg" autoplay
+				loop muted></video>
+    <!-- 页脚 -->
+    <div class="foot-layout">
+<p class="foot-p2">2023年毕业设计 作者:高龙 学校:高博软件技术学院</p>
+</div>
+ </div>
+</body>
+</html>
+    
