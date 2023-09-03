@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: #222;
+	font-size: 12px;
+	line-height: 1.7em;
+	margin: 0;
+	overflow-y: scroll;
+	background-color: transparent !important;
+}
+
+div {
+	vertical-align: baseline;
+	display: block;
+}
+
+body ul {
+	list-style-type: none;
+}
+.gg{
+	position: fixed;
+	right:0;
+	top:0;
+	height:210px;
+	width:137.5px;
+}
+.gg ul{
+	height:210px;
+	width:137.5px;
+}
+.gg ul li{
+	height:70px;
+	width:137.5px;
+}
+.gg ul li button{
+	height:70px;
+	width:137.5px;
+	font-family: "微软雅黑";
+	background: rgba(240, 240, 240, 0.2);
+	border-style: hidden;
+	color: #fff;
+}
+.gg ul li button:hover{
+	background: rgba(240, 240, 240, 0.3);
+}
+.xx{
+	width:962.5px;
+	height:1300px;
+	
+	 
+}
+.xx-1{
+	
+	width:962.5px;
+	height:70px;
+	display:flex;
+}
+.xx-2{
+	margin-top:15px;
+	margin-left:20px;
+	width:400px;
+	height:40px;
+}
+.xx-2 span{
+	font-family: "微软雅黑";
+	color:#fff;
+	font-size:15px;
+}
+
+.xx-2 input{
+	background: rgba(240, 240, 240, 0);
+	border-style: hidden;
+	border-radius: 5px;
+	color:#fff;
+	margin-left:20px;
+	width:250px;
+	height:35px;
+}
+.xx-2 input:hover{
+	background: rgba(204, 204, 204, 0.4);
+}
+.xx-2 input:focus{
+	outline: 1px solid #ccc;
+	background: rgba(255, 255, 255, 1);
+	color: #000;
+}
+.yzm{
+	font-family: "微软雅黑";
+	background: rgba(240, 240, 240, 0.2);
+	border-style: hidden;
+	border-radius: 5px;
+	color: #fff;
+	height:35px;
+	width:100px;
+	margin-left:10px;
+}
+.yzm:hover{
+	background: rgba(204, 204, 204, 0.4);
+}

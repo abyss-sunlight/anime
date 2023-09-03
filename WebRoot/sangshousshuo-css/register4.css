@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+.acount{
+	margin-top: 40px;
+	margin-left: 27px;
+	width: 280px;
+	height: 35px;
+	font-family: "微软雅黑";
+	background: rgba(204, 204, 204, 0.4);
+	border-style: hidden;
+
+	border-radius: 10px;
+}
+.password {
+	margin-top: 15px;
+	margin-left: 27px;
+	width: 280px;
+	height: 35px;
+	font-family: "微软雅黑";
+	background: rgba(204, 204, 204, 0.4);
+	border-style: hidden;
+
+	border-radius: 10px;
+}
+.password1 {
+	margin-top: 15px;
+	margin-left: 27px;
+	width: 280px;
+	height: 35px;
+	font-family: "微软雅黑";
+	background: rgba(204, 204, 204, 0.4);
+	border-style: hidden;
+
+	border-radius: 10px;
+}
+.code {
+	margin-top: 15px;
+	margin-left: 27px;
+	width: 150px;
+	height: 35px;
+	font-family: "微软雅黑";
+	background: rgba(204, 204, 204, 0.4);
+	border-style: hidden;
+
+	border-radius: 10px;
+}
+.password:focus{
+	outline:1px solid #333;
+}
+.password1:focus{
+	outline:1px solid #333;
+}
+.acount:focus{
+	outline:1px solid #333;
+}
+.code:focus{
+	outline:1px solid #333;
+}
+
+.acount::-webkit-input-placeholder {
+	color: #333;
+}
+.password::-webkit-input-placeholder {
+	color: #333;
+}
+.password1::-webkit-input-placeholder {
+	color: #333;
+}
+.code::-webkit-input-placeholder {
+	color: #333;
+}
+.forget {
+	float: left;
+	margin-top: 40px;
+	margin-left: 30px;
+	color: #ccc;
+	text-decoration: none;
+}
+
+.new {
+	float: right;
+	margin-top: 40px;
+	margin-right: 30px;
+	color: #ccc;
+	text-decoration: none;
+}
+.dl{
+	float: right;
+	margin-top: 8px;
+	margin-right: 35px;
+	color: #ccc;
+	text-decoration: none;
+}
+.zd {
+	margin-top: 23px;
+	float: left;
+	margin-left: 5px;
+	color:#666;
+}
+.right-p{
+	color: #cccccc;
+}

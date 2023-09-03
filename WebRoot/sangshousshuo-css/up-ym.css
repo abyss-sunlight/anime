@@ -1,0 +1,280 @@
+@CHARSET "UTF-8";
+/* css动画 */
+@keyframes dhl { /*导航栏文字跳动动画*/
+0%{padding-top:10px;}
+50%{padding-top:5px;}
+100%{padding-top:10px;}
+}
+/* css样式 */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: #222;
+	font-size: 12px;
+	line-height: 1.7em;
+	margin: 0;
+	overflow-y: scroll;
+	background-color: transparent !important;
+}
+
+div {
+	vertical-align: baseline;
+	display: block;
+}
+
+body ul {
+	list-style-type: none;
+}
+
+.all {
+	min-width: 1340px;
+	text-align: center;
+	height: 1600px;
+}
+
+.blackground {
+	height: 440px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 137.5px; background : rgba( 255, 255, 255, 0.3);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background: rgba(255, 255, 255, 0.3)
+}
+
+.naviqation-bar1-1 {
+	width: 100%;
+	height: 150px;
+}
+
+.naviqation-bar1-1 li {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height:50px;
+	text-align: center;
+}
+
+.naviqation-bar1-1 li a {
+	font-family: "微软雅黑";
+	margin: 0;
+	display: block;
+	font-weight: 1000;
+	color: #fff;
+	text-align: center;
+	border-style: hidden;
+	padding-top: 10px;
+	text-decoration: none;
+	background: rgba(204, 204, 204, 0);
+}
+
+.naviqation-bar1-1 li a:hover{
+	animation-duration: 0.6s;
+	animation-name: dhl;
+}
+
+.naviqation-bar1-1 li a img {
+	width: 29px;
+	heigh: 29px;
+}
+
+.naviqation-bar1-1 li a span {
+	font-family: "微软雅黑";
+	font-weight: 1000;
+	color: #fff;
+	border-style: hidden;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.dhl-z{
+	height:210px;
+	width:137.5px;
+	margin-top:180px;
+	
+}
+.dhl-z button{
+	height:70px;
+	width:137.5px;
+	font-family: "微软雅黑";
+	background:rgba(240, 240, 240, 0.1);
+	border-style: hidden;
+	color:#fff;
+	font-weight: 900;
+}
+.dhl-z button:hover{
+	background: rgba(204, 204, 204, 0.4);
+}
+.dhl-z button:focus{
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.bjimg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+	object-fit: cover;
+}
+
+.xianr-all {
+	top: 0;
+	margin-left: 137.5px;
+
+	
+	height: 1600px;
+	width: 1100px;
+	background: rgba(204, 204, 204, 0.2);
+}
+
+.xianr-s {
+	width: 100%;
+	height: 230px;
+	margin: 0 auto;
+	position: relative;
+	background: rgba(204, 204, 204, 0.2);
+}
+
+.xianr-s-all {
+	padding-top: 200px;
+	position: relative;
+	
+}
+
+.xianr-s-1 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 84px;
+}
+
+.xianr-s-2 {
+	margin-left: 20px;
+	position: relative;
+	
+	width: 80%;
+	height: 100%;
+}
+
+.xianr-s-z {
+	margin-left: 20px;
+	width: 84px;
+	height: 100%;
+	align-items: center;
+}
+
+.xianr-s-z img {
+	border-radius: 50%;
+	border: 2px solid #fff;
+	width: 80px;
+}
+
+.xianr-s-z span {
+	color: rgba(204, 204, 204, 0);
+	background: rgba(204, 204, 204, 0);
+	padding: 33px 18px;
+	border-radius: 50%;
+	left: 21px;
+	z-index: 1;
+	position: absolute;
+}
+
+.xianr-s-z span:hover{
+	color: #fff;
+	background: rgba(0, 0, 0, 0.2);
+	cursor:pointer;
+}
+
+.xianr-s-r {
+	top: 0px;
+	left: 100px;
+	color: #fff;
+	font-size: 0;
+	width: 500px;
+	height: 100%;
+	margin-left: 22px;
+	position: absolute;
+}
+
+.xianr-r-1 {
+	width: 100%;
+	height: 40px;
+	display:flex;
+}
+
+.xianr-r-1 span {
+	margin-top: 8px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	font-weight: 900;
+	color: #fff;
+}
+
+.xianr-r-1 img {
+	vertical-align: middle;
+	
+	height:24px;
+	margin-top:7px;
+	margin-left:5px;
+}
+
+.xianr-r-2 {
+	margin-top: 4px;
+	width: 100%;
+	height: 40px;
+}
+
+.xianr-r-2-i {
+	bottom: 8px;
+	height: 25px;
+	width: 100%;
+	left: 0;
+	position: absolute;
+	font-family: "微软雅黑";
+	background: rgba(240, 240, 240, 0);
+	border-style: hidden;
+	border-radius: 5px;
+	color:#fff;
+}
+
+.xianr-r-2-i:hover{
+	background: rgba(204, 204, 204, 0.4);
+}
+
+.xianr-r-2-i:focus{
+	outline: 1px solid #ccc;
+	background: rgba(255, 255, 255, 1);
+	color: #000;
+}
+
+.xianr-x{
+	height:1300px;
+	width:1100px;
+	
+}
+.xianr-x iframe{
+	height:1300px;
+	width:1100px;
+	border-style: hidden;
+	
+}
+.foot-layout {
+    margin-bottom:0;
+    margin-left:0;
+    width:100%;
+    height:40px;
+}
+.foot-p2 {
+	color:#fff;
+	width:100%;
+	height:20px;
+    text-align:center;
+}

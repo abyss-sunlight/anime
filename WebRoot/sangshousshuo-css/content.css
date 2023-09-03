@@ -1,0 +1,128 @@
+@CHARSET "UTF-8";
+/* css动画 */
+@keyframes dhl {/*导航栏文字跳动动画*/
+	0% {opacity: 0;
+	 background: rgba(0,0, 0, 0);}
+	50% {opacity: 0.5;
+	 background: rgba(0,0, 0, 0.1);}
+	100% {opacity: 1;
+	 background: rgba(0,0, 0, 0.2);}
+}
+/* css样式 */
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	
+	overflow: scroll;
+}
+div{
+	display: block;
+}
+body ul{
+	list-style-type: none;
+}
+.all{
+	width:100%;
+	
+	
+}
+.line-s{
+	display:flex;
+	width:100%;
+	height:60px;
+	margin-top:10px;
+}
+.line-s img{
+	height:40px;
+}
+.line{
+	width:1100px;
+	background: rgba(205, 205, 205, 0.5);
+	
+}
+.jg{
+	display:block;
+	width:1100px;
+	background: rgba(205, 205, 205, 0.6);
+	
+}
+.jg li{
+	float: left;
+	position:relative;
+	display: list-item;
+	width:200px;
+	margin-top:20px;
+	margin-left:14px;
+}
+.jg a{
+	color:#000;
+	font-size:15px;
+	border-style: hidden;
+	text-decoration: none;
+}
+.jg .bf{
+	 opacity: 0;
+	 height:282.22px;
+	top:0;
+	left:0;
+	position:absolute;
+	z-index:2;
+}
+.jg .bf:hover{
+	animation-duration: 0.2s;
+       animation-name: dhl2;
+       opacity: 1;
+	 background: rgba(0,0, 0, 0.2);
+}
+.jg a img{
+	width:200px;
+}
+.ys{
+	margin-top:50px;
+	margin-left:410px;;
+	 display: flex;
+	width:320px;
+	height:40px;
+	align-items: center;
+}
+.ys p{
+	color:#000;
+	margin-left:20px;
+}
+p:hover{
+	cursor:pointer;
+}
+.ysc{
+	margin:0;
+	height:25px;
+	width:50px;
+	font-family: "微软雅黑";
+	background: rgba(240, 240, 240, 0);
+	border-style: hidden;
+	color:#000;
+	text-align:center;
+	border-radius: 5px;
+}
+.ysc:hover{
+	background: rgba(204, 204, 204, 0.4);
+}
+
+.ysc:focus{
+	outline: 1px solid #ccc;
+	background: rgba(255, 255, 255, 1);
+	color: #000;
+}
+.ysb{
+	margin-left:5px;
+	height:25px;
+	width:50px;
+	border-style: hidden;
+	border-radius: 5px;
+	 background: rgba(0,0, 0, 0.2);
+}
+.ysb:hover{
+	 background: rgba(0,0, 0, 0.1);
+	 
+}
